@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Title';
+    src: url('../public/fonts/quotenote.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SubTitle';
+    src: url('../public/fonts/gothammedium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'regular';
+    src: url('../public/fonts/gothamlight.otf') format('opentype');
+}
