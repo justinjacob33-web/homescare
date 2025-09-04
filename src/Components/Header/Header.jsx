@@ -27,7 +27,7 @@ const Header = () => {
             <Link to="/about" onClick={() => setOpen(false)}>About</Link>
             <Link to="/services" onClick={() => setOpen(false)}>Services</Link>
             <Link to="/careers" onClick={() => setOpen(false)}>Careers</Link>
-            <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
+            <Link to="/contact" onClick={() => setOpen(false)}>Contactssss</Link>
           </nav>
         </div>
     </header>
