@@ -7,8 +7,8 @@ import menu from '../../assets/menu.svg'
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header className='flex items-center justify-between p-4 bg-white fixed top-0 left-0 right-0 z-50'>
-        <button onClick={() => setOpen(!open)} className='p-2'>
+    <header className='flex items-center justify-between p-4 bg-transparent fixed top-0 left-0 right-0 z-50'>
+        <button onClick={() => setOpen(!open)} className='p-2 bg-white rounded-[10px]'>
           {open ? <X size={28} className='font-title text-white' /> : <img src={menu} className='w-[35px]'/>}
         </button>
           <div><a href="#"><img src={Logo} alt="" /></a></div>
@@ -27,8 +27,9 @@ const Header = () => {
             <Link to="/about" onClick={() => setOpen(false)}>About</Link>
             <Link to="/services" onClick={() => setOpen(false)}>Services</Link>
             <Link to="/careers" onClick={() => setOpen(false)}>Careers</Link>
-            <Link to="/contact" onClick={() => setOpen(false)}>Contacts</Link>
+            <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
           </nav>
+
         </div>
     </header>
   )
