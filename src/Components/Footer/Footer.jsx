@@ -28,7 +28,7 @@ const Footer = () => {
                         <li className='font-regular text-lg text-white'><Link to="/">Home</Link></li>
                         <li className='font-regular text-lg text-white'><Link to="/About">About Us</Link></li>
                         <li className='font-regular text-lg text-white'><Link to="/Services">Services</Link></li>
-                        <li className='font-regular text-lg text-white'><Link to="/Careers">Careers</Link></li>
+                        {/* <li className='font-regular text-lg text-white'><Link to="/Careers">Careers</Link></li> */}
                         <li className='font-regular text-lg text-white'><Link to="/Contact">Contact</Link></li>
                     </ul>
 

@@ -11,7 +11,7 @@ const Header = () => {
         <button onClick={() => setOpen(!open)} className='p-2 bg-white rounded-[10px]'>
           {open ? <X size={28} className='font-title text-white' /> : <img src={menu} className='w-[35px]'/>}
         </button>
-          <div><a href="#"><img src={Logo} alt="" /></a></div>
+          <div><a href="/"><img src={Logo} alt="" /></a></div>
         <div>
           <a className='px-[2rem] py-2 text-[16px] rounded-full border-[1px] border-black text-black font-title drop-shadow-[1px_1px_0_rgba(0,0,0,1.5)] uppercase' href="#">Call Us</a>
         </div>
@@ -26,7 +26,7 @@ const Header = () => {
             <Link to="/" onClick={() => setOpen(false)}>Home</Link>
             <Link to="/about" onClick={() => setOpen(false)}>About</Link>
             <Link to="/services" onClick={() => setOpen(false)}>Services</Link>
-            <Link to="/careers" onClick={() => setOpen(false)}>Careers</Link>
+            {/* <Link to="/careers" onClick={() => setOpen(false)}>Careers</Link> */}
             <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
           </nav>
 

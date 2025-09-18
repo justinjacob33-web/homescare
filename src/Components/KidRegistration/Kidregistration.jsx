@@ -74,12 +74,12 @@ const Kidregistration = () => {
                 <div className='w-full h-full flex flex-col md:flex-row justify-center items-center gap-8 container'>
                     <div className='w-full md:w-1/3 h-full flex flex-col justify-center items-start text-left '>
                         
-                        <h2 className='font-title text-[28px] sm:text-[40px] md:text-[70px] text-black text-left'>Register<br/>Your Kid</h2>
+                        <h2 className='font-title text-[32px] md:text-[50px] lg:text-[70px] text-black text-left'>Register<br/>Your Kid</h2>
                         <p className='font-regular text-[16px] text-black mt-5 md:w-96 w-full'>We commence the hiring process by getting to learn more about you - your skills, experience, interests, & what drives you. Depending on the role you’re applying for, we’ll send you an interesting assignment with a stipulated deadline, a must-do for the next phase.</p>
                         <p className='font-regular text-[16px] text-black mt-5 md:w-96 w-full'>Trusted by Families, Professionals and Communities.Trusted by Families, Professionals and Communities.Trust</p>
                     </div>
                     <div className='w-full md:w-2/3'>
-                        <div className='w-full md:w-[85%] mx-auto border border-primary p-3 px-8 bg-white rounded rounded-[25px]'>
+                        <div className='w-full md:w-[85%] mx-auto border border-primary p-3 px-8 bg-white rounded-[25px]'>
                             <form action="" onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 {regformfileds.map((field) => (
                                     <div key={field.name} className={`flex flex-col mt-5 ${field.type === "textarea" ? "md:col-span-2" : ""}`}>

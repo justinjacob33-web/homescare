@@ -26,9 +26,9 @@ const Home = () => {
     <div className="clear-both"></div>
     <section className='mt-[120px] relative flex flex-col w-full h-auto p-[2rem] md:p-8 sm:p-4' style={{backgroundImage: `url(${orangeBg})`}}>
       <div className='container flex flex-col mx-auto justify-center items-center'>
-        <h2 className='text-center font-title text-white text-[20px] sm:text-[50px] md:text-[50px]'>At CarePerspectives, we are dedicated to providing exceptional, child-centered residential care for young people with complex mental health</h2>
+        <h2 className='text-center font-title text-white text-[32px] md:text-[50px] lg:text-[50px]'>At CarePerspectives, we are dedicated to providing exceptional, child-centered residential care for young people with complex mental health</h2>
         
-        <h3 className='text-center font-regular w-full md:w-[70%] mx-auto mt-[30px] text-xl text-white mb-[30px]'>Trusted by Families, Professionals and Communities.Trusted by Families, Professionals and Communities.Trusted by Families, Professionals and </h3>
+        <h3 className='text-center font-regular w-full md:w-[70%] mx-auto mt-[30px] text-base md:text-xl text-white mb-[30px]'>Trusted by Families, Professionals and Communities.Trusted by Families, Professionals and Communities.Trusted by Families, Professionals and </h3>
 
         <div className='p-4 border-2 border-dashed border-white rounded-[20px] mb-[30px]'>
           <img src={homeAbtimg} alt="" />
@@ -42,16 +42,16 @@ const Home = () => {
     <section className='relative flex flex-col w-full lg:h-screen h-100% bg-cover bg-center p-[2rem] md:p-8 sm:p-16 bg-white items-center justify-center' style={{backgroundImage: `url(${servhomebg})`}}>
       <div className='flex flex-col lg:flex-row container items-center justify-center  mx-auto'>
         <div className='lg:w-1/2 w-full'>
-          <h4 className='text-secondary font-title text-[28px] sm:text-[40px] md:text-[70px] '>Explore our Collection of homes</h4>
-          <h5 className='text-secondary font-regular text-xl mb-5'>Trusted by Families, Professionals and Communities.Trusted by Families, Professionals and Communities.Trusted by Families, Professionals and Communities.</h5>
+          <h4 className='text-secondary font-title text-[32px] md:text-[50px] lg:text-[70px] '>Explore our Collection of homes</h4>
+          <h5 className='text-secondary font-regular text-base md:text-xl mb-5'>Trusted by Families, Professionals and Communities.Trusted by Families, Professionals and Communities.Trusted by Families, Professionals and Communities.</h5>
           <div className='w-full flex flex-col md:flex-row gap-12 mb-[30px]'>
             <div className="lg:w-1/2 w-full">
-              <h6 className='text-secondary font-title text-[40px] mb-[15px]'>Care Plans</h6>
-              <p className='text-xl font-regular text-secondary'>We develop individualised care plans tailored to each young person’s unique needs, focusing on their well-being and personal growth.</p>
+              <h6 className='text-secondary font-title text-[28px] md:text-[40px] mb-[15px]'>Care Plans</h6>
+              <p className='text-base md:text-xl font-regular text-secondary'>We develop individualised care plans tailored to each young person’s unique needs, focusing on their well-being and personal growth.</p>
             </div>
             <div className="lg:w-1/2 w-full">
-              <h6 className='text-secondary font-title text-[40px] mb-[15px]'>Clinical Expertise</h6>
-              <p className='text-xl font-regular text-secondary'>Our therapeutic approach is grounded in evidence-based practices, including attachment theory and PACE (therapeutic parenting model).</p>
+              <h6 className='text-secondary font-title text-[28px] md:text-[40px] mb-[15px]'>Clinical Expertise</h6>
+              <p className='text-base md:text-xl font-regular text-secondary'>Our therapeutic approach is grounded in evidence-based practices, including attachment theory and PACE (therapeutic parenting model).</p>
             </div>
           </div>
           <a href="#" className='inline-block bg-primary text-white font-title text-sm rounded-[50px] px-7 py-3 uppercase border hover:bg-white hover:text-primary hover:border hover:border-primary w-[170px] text-center transition-all duration-300 ease-in-out hover:scale-105'>Services</a>
@@ -67,28 +67,28 @@ const Home = () => {
       <img src={whiteline} className='absolute right-20 top-[-30px] w-[35%]' alt="" />
       <div className='flex flex-col justify-center container mx-auto w-full text-left'>
         <div className='w-full '>
-          <h2 className='font-title text-[28px] sm:text-[40px] md:text-[70px] text-white'>Work and Culture</h2>
-          <h3 className='text-xl font-regular text-white lg:w-[65%] w-full'>We collaborate with educational providers and community services to support the academic development and social integration of young people.</h3>
+          <h2 className='font-title text-[32px] md:text-[50px] lg:text-[70px] text-white'>Work and Culture</h2>
+          <h3 className='text-base md:text-xl font-regular text-white lg:w-[65%] w-full'>We collaborate with educational providers and community services to support the academic development and social integration of young people.</h3>
         </div>
 
         <div className='w-full flex flex-col md:flex-row justify-center items-start gap-8 mt-10 mb-10'>
           <div className='md:w-1/3 w-full'>
-            <h4 className='font-regular text-[30px] text-white my-5'>01</h4>
+            <h4 className='font-regular text-[23px] md:text-[30px] text-white my-5'>01</h4>
             <hr className='w-28 border-primary border-t-2 my-5' />
-            <h5 className='font-regular text-[30px] text-white my-5'>CV Submission</h5>
-            <p className='font-regular text-xl text-white'>We commence the hiring process by getting to learn more about you - your skills, experience, interests, & what drives you.</p>
+            <h5 className='font-regular text-[23px] md:text-[30px] text-white my-5'>CV Submission</h5>
+            <p className='font-regular text-base md:text-xl text-white'>We commence the hiring process by getting to learn more about you - your skills, experience, interests, & what drives you.</p>
           </div>
           <div className='md:w-1/3 w-full'>
-            <h4 className='font-regular text-[30px] text-white my-5'>02</h4>
+            <h4 className='font-regular text-[23px] md:text-[30px] text-white my-5'>02</h4>
             <hr className='w-28 border-primary border-t-2 my-5' />
-            <h5 className='font-regular text-[30px] text-white my-5'>Skill Assessment</h5>
-            <p className='font-regular text-xl text-white'>Depending on the role you’re applying for, we’ll send you an interesting assignment with a stipulated deadline, a must-do for the next phase.</p>
+            <h5 className='font-regular text-[23px] md:text-[30px] text-white my-5'>Skill Assessment</h5>
+            <p className='font-regular text-base md:text-xl text-white'>Depending on the role you’re applying for, we’ll send you an interesting assignment with a stipulated deadline, a must-do for the next phase.</p>
           </div>
           <div className='md:w-1/3 w-full'>
-            <h4 className='font-regular text-[30px] text-white my-5'>03</h4>
+            <h4 className='font-regular text-[23px] md:text-[30px] text-white my-5'>03</h4>
             <hr className='w-28 border-primary border-t-2 my-5' />
-            <h5 className='font-regular text-[30px] text-white my-5'>Final Interview</h5>
-            <p className='font-regular text-xl text-white'>Once you clear the assessment phase, you will be then invited for the final round, aka, the Interview!</p>
+            <h5 className='font-regular text-[23px] md:text-[30px] text-white my-5'>Final Interview</h5>
+            <p className='font-regular text-base md:text-xl text-white'>Once you clear the assessment phase, you will be then invited for the final round, aka, the Interview!</p>
           </div>
         </div>
         <div className='mt-8 mb-8'>

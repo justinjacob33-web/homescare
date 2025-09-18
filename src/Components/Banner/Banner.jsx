@@ -10,7 +10,7 @@ const Banner = ({bannerheading, bannerhighlight, bannerBtn, bannerBtnlink, banne
             <div className='flex flex-col md:flex-row container mx-auto'>
                 <div className='md:w-1/2 w-full justify-center relative flex align-middle flex-col'>
                     <img className='absolute left-[-70px] top-[-90px]' src={footimg} alt="" />
-                    <h1 className='text-[30px] sm:text-[40] md:text-[70px] flex-wrap gap-3 text-secondary font-title mb-4'>
+                    <h1 className='text-[32px] md:text-[50px] lg:text-[70px] flex-wrap gap-3 text-secondary font-title mb-4'>
                         {bannerheading.split (" ").map((word, index) => (
                             <span key={index} className='inline-block transition-transform duration-300 ease-in-out hover:scale-105 hover:text-primary cursor-pointer'>{word === bannerhighlight ? <span className='text-primary'>{word}</span> : word}</span>
                         ))}

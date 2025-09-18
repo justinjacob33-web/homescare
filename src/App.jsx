@@ -5,11 +5,13 @@ import Home from './Components/Pages/HOme';
 import About from './Components/Pages/About';
 import Footer from './Components/Footer/Footer';
 import Services from './Components/Pages/Services';
+import { Contact } from "./Components/Pages/Contact";
+// import Contact from './Components/Pages/Contact'
 
 // If you’ve created these pages, import them
 // 
 // import Careers from './Components/Pages/Careers';
-// import Contact from './Components/Pages/Contact';
+// ;
 
 function App() {
   return (
@@ -19,8 +21,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        {/* <Route path="/careers" element={<Careers />} />
-        <Route path="/contact" element={<Contact />} /> */}
+        {/* <Route path="/careers" element={<Careers />} /> */}
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </>
