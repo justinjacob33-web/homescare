@@ -6,9 +6,9 @@ import line_1 from '../../assets/bg-line.svg';
 const Banner = ({bannerheading, bannerhighlight, bannerBtn, bannerBtnlink, bannerImg, bannerImgalt, bubbleImg}) => {
   return (
     <>
-        <section className='flex relative items-center justify-between p-16 md:p-8 sm:p-4 md:h-screen h-full mt-[8rem] md:mt-0 w-full'>
+        <section className='flex relative items-center justify-between p-6 md:p-8 sm:p-4 md:h-screen h-full mt-[5rem] md:mt-0 w-full'>
             <div className='flex flex-col md:flex-row container mx-auto'>
-                <div className='md:w-1/2 w-full justify-center relative flex align-middle flex-col'>
+                <div className='md:w-1/2 w-full justify-center relative flex align-middle flex-col order-2 md:order-1'>
                     <img className='absolute left-[-70px] top-[-90px]' src={footimg} alt="" />
                     <h1 className='text-[32px] md:text-[50px] lg:text-[70px] flex-wrap gap-3 text-secondary font-title mb-4'>
                         {bannerheading.split (" ").map((word, index) => (
@@ -20,7 +20,7 @@ const Banner = ({bannerheading, bannerhighlight, bannerBtn, bannerBtnlink, banne
                     <a href={bannerBtnlink || "#"} className='inline-block bg-primary text-white font-title text-sm rounded-[50px] px-7 py-3 uppercase border hover:bg-white hover:text-primary hover:border hover:border-primary w-[170px] text-center transition-all duration-300 ease-in-out hover:scale-105'>{bannerBtn}</a>
                     )}
                 </div>
-                <div className='md:w-1/2 w-full flex justify-center'>
+                <div className='md:w-1/2 w-full md:mb-0 mb-10 flex justify-center order-1 md:order-2'>
                     <img src={bannerImg} alt={bannerImgalt} className='w-[90%] relative z-10' />
                 </div>
                 <img src={line_1} className='absolute right-0 top-[40%] w-[50%]' alt="" />
