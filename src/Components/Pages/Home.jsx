@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Banner from '../Banner/Banner'
 import homeBanner from '../../assets/homeBanner.svg'
 import orangeBg from '../../assets/orange-bg.png'
@@ -34,7 +35,7 @@ const Home = () => {
           <img src={homeAbtimg} alt="" />
         </div>
 
-        <a href="#" className='bg-white px-6 py-2 rounded-full font-title uppercase text-primary'>About Us</a>
+        <Link to="/About" className='bg-white px-6 py-2 rounded-full font-title uppercase text-primary'>About Us</Link>
       </div>
       <img src={spiralLine} className='absolute w-[10%] left-0 top-[50%]' alt="" />
     </section>
@@ -54,7 +55,7 @@ const Home = () => {
               <p className='text-base md:text-xl font-regular text-secondary'>Our therapeutic approach is grounded in evidence-based practices, including attachment theory and PACE (therapeutic parenting model).</p>
             </div>
           </div>
-          <a href="#" className='inline-block bg-primary text-white font-title text-sm rounded-[50px] px-7 py-3 uppercase border hover:bg-white hover:text-primary hover:border hover:border-primary w-[170px] text-center transition-all duration-300 ease-in-out hover:scale-105'>Services</a>
+          <Link to="Services" className='inline-block bg-primary text-white font-title text-sm rounded-[50px] px-7 py-3 uppercase border hover:bg-white hover:text-primary hover:border hover:border-primary w-[170px] text-center transition-all duration-300 ease-in-out hover:scale-105'>Services</Link>
         </div>
         <div className='lg:w-1/2 w-full'>
           <img src={homeServ} alt="" />

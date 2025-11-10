@@ -30,9 +30,11 @@ const About = () => {
                     <h2 className='font-title text-black text-[32px] md:text-[50px] lg:text-[70px] mb-5'>
                         Explore our Collection of homes
                     </h2>
-                    <p className='font-regular font-xl text-black mb-3'>We develop individualised care plans tailored to each young person’s unique needs, focusing on their well-being and personal growth. Our therapeutic approach is grounded in evidence-based practices, including attachment theory and PACE (therapeutic parenting model.)</p>
+                    <p className='font-regular font-xl text-black mb-3'>Homes Care operates as part of the Homes Care Group, dedicated to delivering high-quality support that enables young people to build safety, stability, and the skills required for independence.</p>
 
-                    <p className='font-regular font-xl text-black mb-3'>We commence the hiring process by getting to learn more about you - your skills, experience, interests, & what drives you. Depending on the role you’re applying for, we’ll send you an interesting assignment with a stipulated deadline, a must-do for the next phase.</p>
+                    <p className='font-regular font-xl text-black mb-3'>Our 16+ Supported Accommodation services follow the Department for Education’s Guide to Supported Accommodation Regulations and Quality Standards (March 2023), ensuring that every aspect of our care meets the highest expectations of quality and accountability.</p>
+
+                    <p className='font-regular font-xl text-black mb-3'>Working alongside our children’s home provisions for ages 8 to 16, we provide a seamless pathway of support — helping young people develop the skills, confidence, and stability they need to thrive as they move into adulthood.</p>
 
                     <img src={footimg} className='absolute left-0 bottom-[-120px]' alt="" />
                 </div>

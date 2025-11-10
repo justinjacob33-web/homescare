@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='container flex flex-col md:flex-row justify-center items-start mx-auto'>
                 <div className='w-2/4'>
                     <img src={logoWhite} alt="" />
-                    <h4 className='text-lg text-white mt-6 font-regular w-80'>We develop individualised care plans tailored to each young person’s unique needs</h4>
+                    <h4 className='text-lg text-white mt-6 font-regular w-80'>Trusted by families, professionals, and communities across the UK.</h4>
                 </div>
                 <div className='w-2/4 flex flex-col mt-5 md:mt-0'>
                     <div>
