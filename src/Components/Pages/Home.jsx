@@ -17,8 +17,8 @@ const Home = () => {
   return (
     <>
     <Banner 
-        bannerheading= "Empowering Young Lives Through Compassionate Care Empowering Through"
-        bannerhighlight="Care"
+        bannerheading= "Homes that Heal. Smiles that Last Creating safe spaces for our young ones"
+        bannerhighlight="spaces"
         bannerBtnlink="/services"
         bannerImg= {homeBanner}
         bannerImgalt="Homes Care Groups"

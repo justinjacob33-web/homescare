@@ -70,16 +70,16 @@ const Kidregistration = () => {
 
     return (
         <>
-            <section className='w-full md:h-screen h-full flex p-[2rem] md:p-8 sm:p-4 justify-center items-center bg-cover bg-center' style={{backgroundImage: `url(${kidRegbg})`}}>
-                <div className='w-full h-full flex flex-col md:flex-row justify-center items-center gap-8 container'>
-                    <div className='w-full md:w-1/3 h-full flex flex-col justify-center items-start text-left '>
+            <section className='w-full lg:h-screen h-full flex p-[2rem] md:p-8 sm:p-4 justify-center items-center bg-cover bg-center' style={{backgroundImage: `url(${kidRegbg})`}}>
+                <div className='w-full h-full flex flex-col lg:flex-row justify-center items-center gap-8 container'>
+                    <div className='w-full lg:w-1/3 h-full flex flex-col justify-center items-start text-left '>
                         
                         <h2 className='font-title text-[32px] md:text-[50px] lg:text-[70px] text-black text-left'>Register<br/>Your Kid</h2>
-                        <p className='font-regular text-[16px] text-black mt-5 md:w-96 w-full'>At Homes Care, we understand the importance of finding the right environment where a young person can feel safe, supported, and understood. Our registration process is designed to ensure each placement is thoughtful and in the best interest of the individual.</p>
-                        <p className='font-regular text-[16px] text-black mt-5 md:w-96 w-full'><span className='font-bold'>Trusted by families, professionals, and communities,</span> Homes Care provides a structured yet compassionate pathway to ensure every young person receives the right support at the right time.</p>
+                        <p className='font-regular text-[16px] text-black mt-5 lg:w-96 w-full'>At Homes Care, we understand the importance of finding the right environment where a young person can feel safe, supported, and understood. Our registration process is designed to ensure each placement is thoughtful and in the best interest of the individual.</p>
+                        <p className='font-regular text-[16px] text-black mt-5 lg:w-96 w-full'><span className='font-bold'>Trusted by families, professionals, and communities,</span> Homes Care provides a structured yet compassionate pathway to ensure every young person receives the right support at the right time.</p>
                     </div>
-                    <div className='w-full md:w-2/3'>
-                        <div className='w-full md:w-[85%] mx-auto border border-primary p-3 px-8 bg-white rounded-[25px]'>
+                    <div className='w-full lg:w-2/3'>
+                        <div className='w-full lg:w-[85%] mx-auto border border-primary p-3 px-8 bg-white rounded-[25px]'>
                             <form action="" onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 {regformfileds.map((field) => (
                                     <div key={field.name} className={`flex flex-col mt-5 ${field.type === "textarea" ? "md:col-span-2" : ""}`}>
